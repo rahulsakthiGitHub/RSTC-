@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url("notesbg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color: coral;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ten h1{
+    color: white;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    display: inline-block;
+    color: yellow;
+    padding-left: 5%;
+}
+a{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5%;
+    background-color: coral;
+}

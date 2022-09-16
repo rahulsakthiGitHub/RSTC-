@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  .header {
+    background-color: white;
+    padding: 15px;
+  }
+  .header h1{
+    font-family: Biting my Nails;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+  }
+  .header h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .header img{
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+  }
+
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu ul li a button{
+    width: 100%;
+    height: 20%;
+    display: block;
+    padding: 9px;
+    margin-bottom: 3%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    background-color: darkblue;
+    color: white;
+
+  }   
+
+  .menu li a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  .menu li:hover {
+    background-color: white;
+  }
+  .menu ul li a button:hover{
+    background-color: coral;
+  }
+  p {
+      text-indent: 25%;
+      text-align: justify;
+  }
+  h4{
+      font-weight: bold;
+  }
+  .contact p{
+      text-indent: 0%;
+      align-items: left;
+      line-height: 180%;
+  }
+  .color h3{
+    font-weight: bolder;
+    color: crimson;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 100;
+    
+  }
+@keyframes example{
+    0% {color: blue;}
+    10% {color: coral;}
+    40% {color: coral;}
+    80% {color: blue;}
+    100% {color: coral;}
+
+  }
+  .einsten img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .endpic img{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .endpic h1{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Biting My Nails;
+    font-size: larger;
+  }
+  .endpic h2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: small;
+  }
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  @font-face {
+    font-family: Biting My Nails;
+    src: url("Biting\ My\ Nails.otf");
+  }

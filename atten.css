@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url("checkbg.jpg");
+    background-size: 100rem;
+    background-position: top;
+}
+#main{
+    position: relative;
+}
+#inputs h2{
+    color: coral;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+input {
+    width: auto;
+    font-weight: lighter;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgb(188, 6, 243);
+    border: 9px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 15px;
+}
